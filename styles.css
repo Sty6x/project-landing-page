@@ -6,7 +6,7 @@
 
 .header-top{
     display:flex;
-   
+    
 }
 ul{
     list-style: none;
@@ -23,4 +23,6 @@ a{
 .header-links{
     display:flex;
     border: 2px solid red;
+    margin-left: auto;
+    gap: 10px;
 }
