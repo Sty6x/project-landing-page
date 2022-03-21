@@ -42,7 +42,7 @@ a:hover{
 .header-links{
     display:flex;
     margin-left: auto;
-    gap: 10px;
+    gap: 20px;
     font-size: 18px;
     color: #e5e7eb;
     flex: 0 1 auto;
@@ -60,7 +60,7 @@ a:hover{
     padding-right: 260px;
     flex: 1 0 auto;
     padding-bottom: 150px;
-    padding-top: 25px;
+    padding-top: 17px;
   
 }
 
@@ -72,10 +72,6 @@ a:hover{
     align-items: center;
     gap: 30px;
     
-}
-
-strong{
-
 }
 
 /* left hero content */
@@ -130,6 +126,58 @@ strong{
     width: 500px;
 }
 .hero-content-right{
-
     margin-left: auto;
+}
+
+
+/* forst content */
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding-top: 20px;
+    
+}
+
+.information-header{
+    font-size: 36px;
+    font-weight: 950;
+    color: #1F2937;
+}
+
+.poi{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom:120px ;
+   
+}
+
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item .text{
+    width:180px;
+    color: #1F2937;
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+    /* border: #3382F6 solid 3px; */
+    padding:0;
+    margin: 0;
+}
+
+
+.item .info-image{
+    width:200px;
+    height: 200px;    
+    border: #3382F6 solid 3px;
+    border-radius: 10px;
 }
