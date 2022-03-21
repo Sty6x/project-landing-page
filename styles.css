@@ -210,3 +210,27 @@ a:hover{
     display: flex;
     margin-left: auto;
 }
+
+
+.third-content{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    background-color: #3382F6;
+    border-radius: 5px;
+    padding: 20px 60px;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-text,
+.big-text{
+    padding: 0;
+    margin: 0;
+    /* border: red solid 3px; */
+}
