@@ -222,7 +222,7 @@ a:hover{
     display: flex;
     background-color: #3382F6;
     border-radius: 5px;
-    padding: 20px 60px;
+    padding: 45px 100px;
     width: 800px;
     justify-content: space-between;
     align-items: center;
@@ -233,4 +233,40 @@ a:hover{
     padding: 0;
     margin: 0;
     /* border: red solid 3px; */
+    color: #e5e7eb;
+}
+
+.big-text{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.third-sign-up button{
+    font-size: 12px;
+    text-decoration: none;
+    border: 2px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: #e5e7eb solid 2px;
+    background-color: #3382F6;
+    color: #e5e7eb;
+    font-weight: 900;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.third-sign-up button:hover{
+    color: #1f2937;
+    /* background-color: aquamarine; */
+    border: #1f2937 solid 2px;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 50px 0px;
+    color: #E5E7EB;
 }
