@@ -74,6 +74,9 @@ a:hover{
     
 }
 
+strong{
+
+}
 
 /* left hero content */
 
@@ -101,10 +104,23 @@ a:hover{
 }
 
 .hero-sign-button{
-    background-color: blue;
-    font-size: 18px;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #3382F6;
     color: #e5e7eb;
+    font-weight: 900;
+    margin-top: 10px;
+    cursor: pointer;
 }
+.hero-sign-button:hover{
+    background-color: aquamarine;
+    color: #1f2937;
+
+}
+
 
 /* right hero content */
 
