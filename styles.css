@@ -2,28 +2,19 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
-}
-
-.hero{
-    background-color: #1f2937;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-left: 185px;
-    padding-right: 185px;
-    flex: 1 0 auto;
-  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
+/* header */
 
 .hero-header{
     display:flex;
-    margin-bottom: 40px;
-    padding-top: 5px;
+    margin-bottom: 120px;
+    /* padding-top: 5px; */
     align-items: center;
-    flex-grow: 1;
-    flex-shrink: 0;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
 
 }
 ul{
@@ -35,9 +26,16 @@ a{
     text-decoration: none;
 }
 
+a:visited{
+    color: #e5e7eb;
+}
+a:hover{
+    color: aquamarine;
+}
 
 .logo{
     font-size: 24px;
+    font-weight: bold;
     color: #f9faf8;
 }
 
@@ -47,35 +45,75 @@ a{
     gap: 10px;
     font-size: 18px;
     color: #e5e7eb;
+    flex: 0 1 auto;
+}
+
+
+/* hero content */
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 260px;
+    padding-right: 260px;
+    flex: 1 0 auto;
+    padding-bottom: 150px;
+    padding-top: 25px;
+  
 }
 
 .hero-content{
     display: flex;
-    gap: 20px;
     flex-grow: 1;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: red solid 2px; */
+    align-items: center;
+    gap: 30px;
     
 }
+
+
+/* left hero content */
 
 .hero-main-text{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    text-align: left;
-    flex: 1;
-    width: 400px;
+    margin: 0;
+    padding: 0;
+    /* border: red solid 2px; */
 }
 
 .hero-text{
     font-size: 18px;
     color: #e5e7eb;
-    border: red solid 2px;
-    width: 400px;
 }
 
+.hero-content-left{
+    display: flex;
+    flex-direction: column;
+    /* border: red solid 2px; */
+    width: 400px;
+    gap: 10px;
+    
+}
+
+.hero-sign-button{
+    background-color: blue;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* right hero content */
 
 .hero-content-right img{
     border-radius: 5px;
-    height: 250px;
+    height: 260px;
     width: 500px;
+}
+.hero-content-right{
+
+    margin-left: auto;
 }
