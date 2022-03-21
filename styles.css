@@ -181,3 +181,32 @@ a:hover{
     border: #3382F6 solid 3px;
     border-radius: 10px;
 }
+
+
+.second-content{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.quote-box{
+    /* border: #3382F6 solid 2px; */
+    padding: 80px 50px;
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.insp-quote{
+    font-size: 20px;
+    color: #1F2937;
+}
+
+.author{
+    display: flex;
+    margin-left: auto;
+}
