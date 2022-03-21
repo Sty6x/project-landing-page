@@ -11,6 +11,7 @@ body {
     display: flex;
     align-items: center;
     flex-grow: 1;
+    flex-wrap: wrap;
     background-color: #10161d;
     padding: 0px 260px; 
 }
@@ -61,7 +62,6 @@ a:hover {
     flex-wrap: wrap;
     padding-left: 260px;
     padding-right: 260px;
-    /* flex: 1 0 auto; */
     padding-bottom: 150px;
     padding-top: 40px;
     flex-grow: 1;
@@ -79,7 +79,7 @@ a:hover {
     padding-top: 40px;
     width: 1280px;
     height: auto;
-
+    gap: 50px;
 }
 
 /* left hero content */
@@ -124,6 +124,7 @@ a:hover {
     background-color: aquamarine;
     color: #1f2937;
     border: #0e131a solid 2px;
+    padding: 10px 30px;
 }
 
 
@@ -171,6 +172,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
 .item .text {
@@ -233,7 +235,7 @@ a:hover {
 .card {
     display: flex;
     background-color: #3382F6;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 45px 100px;
     width: 800px;
     justify-content: space-between;
@@ -281,6 +283,6 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: #1f2937;
-    padding: 50px 0px;
+    padding: 35px 0px;
     color: #E5E7EB;
 }
